@@ -17,7 +17,6 @@ public class Main {
         System.out.println("Всего работников в компании " + totalWorkers + " человек");
         var workers = 94;
         var finalNumberOfWorkers = totalWorkers + workers;
-        var generalTime = finalNumberOfWorkers * employeeTime;
-        System.out.println("Если в компании работает " + finalNumberOfWorkers + " человек, то всего " + generalTime + " часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает " + finalNumberOfWorkers + " человек, то всего " + (finalNumberOfWorkers * employeeTime) + " часов работы может быть поделено между сотрудниками");
     }
 }
