@@ -4,13 +4,12 @@ public class Main {
         var twoBoxer = 82.7;
         var totalWeight = oneBoxer + twoBoxer;
         System.out.println("Общий вес двух бойцов " + totalWeight + " кг");
-        var weightDifference = oneBoxer - twoBoxer;
-        System.out.println("Разница в весе " + weightDifference + " кг!");
+        System.out.println("Разница в весе " + (twoBoxer - oneBoxer) + " кг!");
 
         var bigSmaller = twoBoxer - oneBoxer;
-        System.out.println("Вычитание из большего веса меньшего " + bigSmaller);
+        System.out.println("Разница двух бойцов (1 способ) " + bigSmaller + " кг");
         var remnant = twoBoxer % oneBoxer;
-        System.out.println("Функция остаток от деления " + remnant);
+        System.out.println("Разница двух бойцов (2 способ) " + remnant + " кг");
 
         var totalTime = 640;
         var employeeTime = 8;
